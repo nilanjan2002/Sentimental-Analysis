@@ -1,9 +1,6 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="UTF-8">
-    <title>Sentimental Analysis</title>
-  </head>
+
   <body>
     <h1>Sentimental Analysis</h1>
     <p>This project performs sentiment analysis on user input text using the AFINN-111 dataset. It is built using the p5.js library.</p>
