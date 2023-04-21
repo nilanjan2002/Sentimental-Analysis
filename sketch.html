@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Sentiment Analysis</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <style>
+      body {
+        padding: 20px;
+        font-family: Arial, sans-serif;
+      }
+      textarea {
+        height: 150px;
+        resize: none;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="mt-5 mb-4 text-center" style="letter-spacing: 2px;">Sentiment Analysis</h1>
+      <div class="form-group">
+        <label for="txt">Type Here:</label>
+        <textarea id="txt" class="form-control" cols="50" rows="10"></textarea>
+      </div>
+      <div class="form-group">
+        <label for="score">Sentiment Score:</label>
+        <p id='score'></p>
+      </div>
+      <div class="form-group">
+        <label for="comp">Sentiment Comparison:</label>
+        <p id='comp'></p>
+      </div>
+      <div class="form-group">
+        <label for="words">Words:</label>
+        <p id='words'></p>
+      </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.6.0/p5.js"></script>
+    <script src="sketch.js"></script>
+  </body>
+</html>
